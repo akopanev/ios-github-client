@@ -1,0 +1,25 @@
+//
+//  GitHubClient-PrefixHeader.pch
+//  GitHubClient
+//
+//  Created by Andrew Kopanev on 10/8/14.
+//  Copyright (c) 2014 Moqod. All rights reserved.
+//
+
+#ifndef GitHubClient_GitHubClient_PrefixHeader_pch
+#define GitHubClient_GitHubClient_PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define NSLS(x) NSLocalizedString(x, nil)
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "GHUIConstants.h"
+#import "MDLibrary.h"
+#import "GHModels.h"
+
+#import "GHCoreEngine.h"
+
+#endif
